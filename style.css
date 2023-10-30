@@ -1,0 +1,37 @@
+body {
+  text-align: center;
+  background-color: black;
+}
+
+h1 {
+  margin: 50vh 0;
+  position: relative;
+  color: #ffffff;
+}
+
+h1::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  top: 50px;
+  left: calc(50% - 20px);
+  border: transparent solid 20px;
+  border-top: rgb(255, 255, 255) solid 10px;
+}
+
+img {
+  max-width: 100%;
+  margin: 20vh 0;
+}
+
+a {
+  height: 200px;
+  width: 50px;
+  bottom: 30px;
+  background: #fff;
+  border: solid 2px #ffffff;
+  border-radius: 20%;
+}
+
